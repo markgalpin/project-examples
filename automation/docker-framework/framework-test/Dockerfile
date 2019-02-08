@@ -1,4 +1,4 @@
-FROM docker.artifactory-ha:5000/docker-framework:latest
+FROM docker.artifactory-ha/docker-framework:latest
 
 MAINTAINER Stanley Fong stanleyf@jfrog.com
 
