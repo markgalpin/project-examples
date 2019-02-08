@@ -1,4 +1,4 @@
-FROM jfrog.local:5000/ubuntu:latest
+FROM docker.artifactory-ha/ubuntu:latest
 
 MAINTAINER Stanley Fong stanleyf@jfrog.com
 
