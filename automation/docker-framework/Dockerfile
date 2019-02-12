@@ -1,4 +1,4 @@
-FROM docker.artifactory-ha/ubuntu-secure:latest
+FROM docker.artifactory-ha/ubuntu:latest
 
 MAINTAINER Stanley Fong stanleyf@jfrog.com
 
