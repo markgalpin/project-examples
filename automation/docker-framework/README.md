@@ -1,6 +1,6 @@
 Automation Training - Docker Framework
 ======================================
-This folder contains scripts used for the Automation SwampUp Training exercises.
+This folder contains scripts used for the Automation GKE Training exercises.
 
 Script Details
 --------------
