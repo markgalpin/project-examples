@@ -1,6 +1,6 @@
 version: 1
 type: gradle
-useWrapper: true
+useWrapper: false
 resolver:
   repo: maven
   serverID: beta_dev
