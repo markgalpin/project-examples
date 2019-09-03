@@ -1,12 +1,12 @@
 {
     "files": [
      {
-      "pattern": "tomcat-local/jdk/openjdk-11u28-linux-x64.tar.gz",
+      "pattern": "generic-local/jdk/openjdk-11u28-linux-x64.tar.gz",
       "target": "jdk/openjdk-11-linux-x64.tar.gz",
       "flat":"true"
      },
      {
-      "pattern": "tomcat-local/org/apache/apache-tomcat/apache-tomcat-9.0.24.tar.gz",
+      "pattern": "generic-local/org/apache/apache-tomcat/apache-tomcat-9.0.24.tar.gz",
       "target": "tomcat/apache-tomcat-9.tar.gz",
       "flat":"true"
      }
