@@ -1,12 +1,12 @@
-FROM artifactory-dev.jfrogbeta.com/docker-local/dsop/ubi7
+FROM artifactory-dev.jfrogbeta.com/docker-local/ubi7
 
-MAINTAINER Stanley Fong stanleyf@jfrog.com
+MAINTAINER Mark Galpin markg@jfrog.com
 
 RUN /bin/bash -c cd ~; cd /home ; mkdir -p exec
-ADD jdk/jdk-8-linux-x64.tar.gz /home/exec
-RUN /bin/bash -c cd /home/exec; mv /home/exec/jdk* /home/exec/jdk8
-ENV JAVA_HOME=/home/exec/jdk8
-RUN sed "/securerandom.source=/{s/file:\/dev\/random/file:\/dev\/urandom/}" /home/exec/jdk8/jre/lib/security/java.security -i
+ADD jdk/openjdk-11-linux-x64.tar.gz /home/exec
+RUN /bin/bash -c cd /home/exec; mv /home/exec/openjdk* /home/exec/jdk11
+ENV JAVA_HOME=/home/exec/jdk11
+RUN sed "/securerandom.source=/{s/file:\/dev\/random/file:\/dev\/urandom/}" /home/exec/jdk11/jre/lib/security/java.security -i
 
 ADD tomcat/apache-tomcat-8.tar.gz /home/exec
 RUN /bin/bash -c cd /home/exec; mv /home/exec/apache-tomcat-8.* /home/exec/tomcat
