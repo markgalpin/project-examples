@@ -1,4 +1,4 @@
-FROM artifactory-dev.jfrogbeta.com/docker-local/ubi7
+FROM artifactory-dev.jfrogbeta.com/docker-local/dsop/ubi7
 
 MAINTAINER Mark Galpin markg@jfrog.com
 
