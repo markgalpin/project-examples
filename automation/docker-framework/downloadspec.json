@@ -1,7 +1,7 @@
 {
     "files": [
      {
-      "pattern": "generic-local/jdk/openjdk-11u28-linux-x64.tar.gz",
+      "pattern": "generic-local/jdk/openjdk-11u28_linux-x64_bin.tar.gz",
       "target": "jdk/openjdk-11-linux-x64.tar.gz",
       "flat":"true"
      },
